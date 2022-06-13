@@ -1,0 +1,31 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    background-color: #313131;
+    color: white;
+    display: flex;
+    padding: 0.2em;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    margin-right: auto;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    margin: 0.5em;
+    margin-right: 2em;
+}
+
+.header li {
+    margin-left: 1em;
+    margin-right: 1em;
+}
