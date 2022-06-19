@@ -113,7 +113,42 @@ main {
 }
 
 .profile-description {
-    margin: 1em 0em 2em 0em;
+    margin: 1em 0em;
+}
+
+.profile-tag ul{
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-tag li {
+    padding: 0.5em 1em;
+    margin: .5em;
+    border-radius: .5em;
+    color: white;
+    display: flex;
+}
+
+.black {
+    background-color: #313131;
+}
+
+.orange {
+    background-color: rgb(235, 141, 0);
+}
+
+.magenta {
+    background-color: rgb(219, 129, 255);
+}
+
+.green {
+    background-color: rgb(16, 121, 16);
+}
+
+.red {
+    background-color: rgb(216, 57, 57);
 }
 
 .profile-link {
