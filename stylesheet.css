@@ -2,7 +2,7 @@ body {
     margin: 0%;
 }
 
-.header {
+header {
     background-color: #313131;
     color: white;
     display: flex;
@@ -18,14 +18,19 @@ body {
     margin-bottom: 0.5em;
 }
 
-.header-list {
+nav {
     display: flex;
-    list-style: none;
     margin: 0.5em;
     margin-right: 2em;
 }
 
-.header li {
+header ul {
+    margin: 0px;
+    display: flex;
+    list-style: none;
+}
+
+header li {
     margin-left: 1em;
     margin-right: 1em;
 }
