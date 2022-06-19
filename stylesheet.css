@@ -2,6 +2,7 @@ body {
     margin: 0%;
 }
 
+/* ヘッダー */
 header {
     background-color: #313131;
     color: white;
@@ -34,3 +35,5 @@ header li {
     margin-left: 1em;
     margin-right: 1em;
 }
+
+/* コンテンツ */
