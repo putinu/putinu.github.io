@@ -87,36 +87,38 @@ main {
     margin: 0 2em;
 }
 
-.profile-name {
+.profile-image {
     display: flex;
     text-align: center;
-    margin: 2em 3em 1em 3em;
-    padding: 3em 1em; 
-    border-radius: 1em;
-    box-shadow: 2px 2px 0px 4px #313131;
+    margin: 2em 6em 1em 6em;
+    padding: 1em 1em; 
 }
 
 .profile-nametext {
-    margin: 1em;
+    margin-top: 1em;
 }
 
 .account {
-    display: flex;
     align-items: center;
 }
 
 .account-name {
     margin: 0 0.3em;
+    font-size: 38px;
+    align-items: center;
 }
 
 .account-id {
     margin: 0 0.3em;
+    font-size: 20px;
     align-items: center;
     color: #b4b4b4;
 }
 
 .full-name {
-    letter-spacing: 0.1em;
+    letter-spacing: 0em;
+    color: #555555;
+    font-size: 26px;
 }
 
 .profile-content {
@@ -124,7 +126,7 @@ main {
 }
 
 .profile-description {
-    margin: 1em 0em;
+    margin: 1em 0em 2em 0em;
 }
 
 .rounded-tags ul{
@@ -195,7 +197,21 @@ main {
 
 .project-main {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.project-videos {
+    width: 50%;
+    position: relative;
+    height: 0;
+    padding-top: 28.125%;
+}
+
+.project-videos iframe {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .project-side-block {
@@ -210,13 +226,24 @@ main {
 }
 
 .round-block {
-    padding: 1em 2em;
-    margin: 1em 2em;
-    border-radius: .5em;
+    padding: .8em 2em;
+    margin: 1em 0em 1em 2em;
+    border-radius: .5em 0 0 .5em;
     background-color: #313131;
     color: white;
     font-weight: bold;
     display: flex;
+    box-shadow: 4px 4px 0 0 #313131;
+}
+
+.round-content {
+    padding: .8em 2em;
+    margin: 0em;
+    background-color: white;
+    outline: 2px solid #313131;
+    outline-offset: -2px;
+    border-radius: 0 .5em .5em 0;
+    box-shadow: 4px 4px 0 0 #313131;
 }
 
 .round-border {
@@ -232,7 +259,7 @@ main {
 
 .project-description {
     display: flex;
-    margin: 2em 0em;
+    margin: 3em 0em 2em 0em;
 }
 
 .tab-message {
@@ -242,7 +269,7 @@ main {
     background-color: #313131;
     color: white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
 }
 
