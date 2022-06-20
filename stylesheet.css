@@ -19,7 +19,7 @@ h3 {
 }
 
 li {
-    margin: 0.5em 0em;
+    margin: 1em 0em;
 }
 
 /* ヘッダー */
@@ -27,6 +27,7 @@ header {
     background-color: #313131;
     color: white;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0.2em;
     width: 100%;
@@ -44,6 +45,7 @@ nav {
     display: flex;
     margin: 0.5em;
     margin-right: 2em;
+    font-weight: bold;
 }
 
 header ul {
@@ -90,6 +92,7 @@ main {
     text-align: center;
     margin: 2em 3em 1em 3em;
     padding: 3em 1em; 
+    border-radius: 1em;
     box-shadow: 2px 2px 0px 4px #313131;
 }
 
@@ -178,6 +181,7 @@ main {
 
 .project-content {
     margin: 2em;
+    border-bottom: solid 5px #313131;
 }
 
 .project-top {
@@ -228,17 +232,36 @@ main {
 
 .project-description {
     display: flex;
-    flex-wrap: wrap;
+    margin: 2em 0em;
+}
+
+.tab-message {
+    padding: 0.5em 2em;
+    margin: 0em 50% 0em 0em;
+    border-radius: 1em 1em 0 0;
+    background-color: #313131;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
 }
 
 .project-challenge {
     width: 50%;
+    margin: 1em 1em 3em 1em;
 }
 
 .project-challenge ul {
-    margin: 2em;
+    margin: 0;
+    padding: 2em;
+    height: 70%;
+    border: solid 2px #313131;
+    box-shadow: 4px 4px 0 0 #313131;
+    border-radius: 0 1em 1em 1em;
 }
 
-.project-hard {
-    width: 50%;
+.project-challenge li {
+    margin: 1em 2em;
+    font-weight: bold;
+    font-size: 18px;
 }
