@@ -4,15 +4,22 @@ body {
 }
 
 h1 {
+    font-size:40px;
     margin: 0;
 }
 
 h2 {
+    font-size: 32px;
     margin: 0;
 }
 
 h3 {
+    font-size: 24px;
     margin: 0;
+}
+
+li {
+    margin: 1em 0em;
 }
 
 /* ヘッダー */
@@ -20,6 +27,7 @@ header {
     background-color: #313131;
     color: white;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0.2em;
     width: 100%;
@@ -37,6 +45,7 @@ nav {
     display: flex;
     margin: 0.5em;
     margin-right: 2em;
+    font-weight: bold;
 }
 
 header ul {
@@ -62,7 +71,7 @@ main {
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
     margin: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
 }
 
 .profile {
@@ -70,6 +79,7 @@ main {
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
     margin: 2em;
+    margin-bottom: 6em;
 }
 
 .profile-flex {
@@ -77,35 +87,38 @@ main {
     margin: 0 2em;
 }
 
-.profile-name {
+.profile-image {
     display: flex;
     text-align: center;
-    margin: 2em 3em 0em 3em;
-    padding: 3em 1em; 
-    box-shadow: 2px 2px 0px 4px #313131;
+    margin: 2em 6em 1em 6em;
+    padding: 1em 1em; 
 }
 
 .profile-nametext {
-    margin: 1em;
+    margin-top: 1em;
 }
 
 .account {
-    display: flex;
-    vertical-align: middle;
+    align-items: center;
 }
 
 .account-name {
     margin: 0 0.3em;
+    font-size: 38px;
+    align-items: center;
 }
 
 .account-id {
     margin: 0 0.3em;
+    font-size: 20px;
     align-items: center;
     color: #b4b4b4;
 }
 
 .full-name {
-    letter-spacing: 0.1em;
+    letter-spacing: 0em;
+    color: #555555;
+    font-size: 26px;
 }
 
 .profile-content {
@@ -113,17 +126,18 @@ main {
 }
 
 .profile-description {
-    margin: 1em 0em;
+    margin: 1em 0em 2em 0em;
 }
 
-.profile-tag ul{
+.rounded-tags ul{
     padding-left: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
-.profile-tag li {
+.rounded-tags li {
     padding: 0.5em 1em;
     margin: .5em;
     border-radius: .5em;
@@ -151,6 +165,130 @@ main {
     background-color: rgb(216, 57, 57);
 }
 
+.unity1week {
+    background-color: rgb(49, 172, 212);
+}
+
 .profile-link {
     margin: 1em 0em;
+}
+
+/* プロジェクト */
+.project {
+    background-color: white;
+    box-shadow: 12px 12px 0px 20px #313131;
+    padding: 2em;
+    margin: 2em;
+}
+
+.project-content {
+    margin: 2em;
+    border-bottom: solid 5px #313131;
+}
+
+.project-top {
+    display: flex;
+    align-items: center;
+}
+
+.project-title {
+    margin: 0.5em 2em 0.5em 0em;
+}
+
+.project-main {
+    display: flex;
+}
+
+.project-videos {
+    width: 50%;
+    position: relative;
+    height: 0;
+    padding-top: 28.125%;
+}
+
+.project-videos iframe {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-side-block {
+    margin: 0em 2em;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.round-block {
+    padding: .8em 2em;
+    margin: 1em 0em 1em 2em;
+    border-radius: .5em 0 0 .5em;
+    background-color: #313131;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    box-shadow: 4px 4px 0 0 #313131;
+}
+
+.round-content {
+    padding: .8em 2em;
+    margin: 0em;
+    background-color: white;
+    outline: 2px solid #313131;
+    outline-offset: -2px;
+    border-radius: 0 .5em .5em 0;
+    box-shadow: 4px 4px 0 0 #313131;
+}
+
+.round-border {
+    padding: 1em 2em;
+    margin: 1em 2em;
+    border: solid;
+    border-width: 5px;
+    border-radius: .5em;
+    color: #313131;
+    font-weight: bold;
+    display: flex;
+}
+
+.project-description {
+    display: flex;
+    margin: 3em 0em 2em 0em;
+}
+
+.tab-message {
+    padding: 0.5em 2em;
+    margin: 0em 50% 0em 0em;
+    border-radius: 1em 1em 0 0;
+    background-color: #313131;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+.project-challenge {
+    width: 50%;
+    margin: 1em 1em 3em 1em;
+}
+
+.project-challenge ul {
+    margin: 0;
+    padding: 2em;
+    height: 70%;
+    border: solid 2px #313131;
+    box-shadow: 4px 4px 0 0 #313131;
+    border-radius: 0 1em 1em 1em;
+}
+
+.project-challenge li {
+    margin: 1em 2em;
+    font-weight: bold;
+    font-size: 18px;
 }
