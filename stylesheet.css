@@ -18,6 +18,10 @@ h3 {
     margin: 0;
 }
 
+li {
+    margin: 0.5em 0em;
+}
+
 /* ヘッダー */
 header {
     background-color: #313131;
@@ -187,6 +191,7 @@ main {
 
 .project-main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project-side-block {
@@ -208,4 +213,32 @@ main {
     color: white;
     font-weight: bold;
     display: flex;
+}
+
+.round-border {
+    padding: 1em 2em;
+    margin: 1em 2em;
+    border: solid;
+    border-width: 5px;
+    border-radius: .5em;
+    color: #313131;
+    font-weight: bold;
+    display: flex;
+}
+
+.project-description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-challenge {
+    width: 50%;
+}
+
+.project-challenge ul {
+    margin: 2em;
+}
+
+.project-hard {
+    width: 50%;
 }
