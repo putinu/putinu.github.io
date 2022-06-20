@@ -134,15 +134,22 @@
                                     <li>
                                         双方のクライアントに乱数で生成した同じデータを共有すること
                                     </li>
-                                    <li>詳しくは<a href="https://note.com/putinu/n/na35f7eccbdb7">コチラ</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="project-comment">
                             <p class="tab-message">コメントなど</p>
-                            <p class="comment">
-                                aaa
-                            </p>
+                            <div class="comment">
+                                <p>
+                                    UnityアセットのPUN2(Photon Unity Networkings 2)を用いてオンラインマルチプレイ機能をこのイベント本番で初めて実装したため、
+                                    少し開発期間が長くなってしまいました。しかし、どこかでチャレンジしたいと考えていたため、挑戦して良かったと感じています。
+                                </p>
+                                <p>
+                                    <strong>データの送受信に適した実装方法</strong>や、オンラインマルチプレイ機能の実装において
+                                    <strong>何に気をつけなければならないのか</strong>など、多くの知識と経験を得る機会となりました。
+                                </p>
+                                <p>反省を含めてnoteを書きました。詳しくは<a href="https://note.com/putinu/n/na35f7eccbdb7">コチラ</a>まで。</p>
+                            </div>
                         </div>
                     </div>
                     <div class="project-content">
@@ -182,7 +189,7 @@
                                 </div>
                                 <div class="point">
                                     <p class="round-block">イベント</p>
-                                    <p class="round-content">大学の演習課題（作品投票で１位獲得）</p>
+                                    <p class="round-content">大学の演習課題</p>
                                 </div>
                             </div>
                         </div>
@@ -212,72 +219,24 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-top">
-                            <div class="project-title">
-                                <h2>Blockete</h2>
-                            </div>
-                            <div class="rounded-tags">
-                                <ul>
-                                    <li class="black"># Unity</li>
-                                    <li class="magenta"># UI</li>
-                                    <li class="unity1week"># Unity1Week</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="project-main">
-                            <div class="project-videos">
-                                <div>
-                                    <iframe 
-                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
-                                        title="YouTube video player" frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                    </iframe>
-                                </div>
-                            </div>
-                            <div class="project-side-block">
-                                <div class="point">
-                                    <p class="round-block">ジャンル</p>
-                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">リリース</p>
-                                    <p class="round-content">2022年5月14日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">開発期間</p>
-                                    <p class="round-content">9日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">イベント</p>
-                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-challenge">
-                                <p class="tab-message">チャレンジしたこと</p>
-                                <ul>
-                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
-                                    <li>UniRx / UniTaskの利活用</li>
-                                    <li>Affinity DesignerによるUI作成</li>
-                                </ul>
-                            </div>
-                            <div class="project-challenge">
-                                <p class="tab-message">苦労したこと</p>
-                                <ul>
-                                    <li>
-                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
-                                        実装時にデータの送受信関係で時間を要した。
-                                    </li>
-                                    <li>
-                                        オンラインゲームでは避けて通れない遅延問題の対策
-                                    </li>
-                                    <li>
-                                        双方のクライアントに乱数で生成した同じデータを共有すること
-                                    </li>
-                                </ul>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <div class="comment">
+                                <p>
+                                    これまでにUnityによるゲーム開発で蓄えた知識を発揮するために、とても力を入れてこの演習に取り組みました。
+                                    その甲斐もあり、学生による作品投票では<strong>1位</strong>に輝くことが出来ました。
+                                </p>
+                                <p>
+                                    また、Java言語を用いてのゲーム制作も初めてで知らない事が多かったため、機能の実現のためにWebや書籍などの参考資料を探し、
+                                    その度に学び、実装することで今回の作品を作り上げることが出来ました。
+                                </p>
+                                <p>
+                                    「<strong>苦労したこと</strong>」で述べている「<strong>非同期処理とGIFアニメーションの描画が上手く行かなかった</strong>」点については、同じスレッドでGIFアニメーションを
+                                    再生するとその間で同期処理が取られてしまい正しくアニメーションしなかったり、使用しているgifファイルが1つのために問題が発生するなど、
+                                    苦労の連続がありました。ですが、上記でも述べた通り、それぞれのアニメーションを<strong>別スレッドで管理</strong>し、
+                                    また<strong>複数の同じgifファイルを用意</strong>し、順番に使用することで解決へと至ることが出来ました。
+                                    Unityでの開発では感じられない様々な側面について知り、学ぶことが出来ました。
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -348,73 +307,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-top">
-                            <div class="project-title">
-                                <h2>Blockete</h2>
-                            </div>
-                            <div class="rounded-tags">
-                                <ul>
-                                    <li class="black"># Unity</li>
-                                    <li class="magenta"># UI</li>
-                                    <li class="unity1week"># Unity1Week</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="project-main">
-                            <div class="project-videos">
-                                <div>
-                                    <iframe 
-                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
-                                        title="YouTube video player" frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                    </iframe>
-                                </div>
-                            </div>
-                            <div class="project-side-block">
-                                <div class="point">
-                                    <p class="round-block">ジャンル</p>
-                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">リリース</p>
-                                    <p class="round-content">2022年5月14日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">開発期間</p>
-                                    <p class="round-content">9日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">イベント</p>
-                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-challenge">
-                                <p class="tab-message">チャレンジしたこと</p>
-                                <ul>
-                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
-                                    <li>UniRx / UniTaskの利活用</li>
-                                    <li>Affinity DesignerによるUI作成</li>
-                                </ul>
-                            </div>
-                            <div class="project-challenge">
-                                <p class="tab-message">苦労したこと</p>
-                                <ul>
-                                    <li>
-                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
-                                        実装時にデータの送受信関係で時間を要した。
-                                    </li>
-                                    <li>
-                                        オンラインゲームでは避けて通れない遅延問題の対策
-                                    </li>
-                                    <li>
-                                        双方のクライアントに乱数で生成した同じデータを共有すること
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
                         </div>
                     </div>
                     <div class="project-content">
@@ -484,73 +381,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-top">
-                            <div class="project-title">
-                                <h2>Blockete</h2>
-                            </div>
-                            <div class="rounded-tags">
-                                <ul>
-                                    <li class="black"># Unity</li>
-                                    <li class="magenta"># UI</li>
-                                    <li class="unity1week"># Unity1Week</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="project-main">
-                            <div class="project-videos">
-                                <div>
-                                    <iframe 
-                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
-                                        title="YouTube video player" frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                    </iframe>
-                                </div>
-                            </div>
-                            <div class="project-side-block">
-                                <div class="point">
-                                    <p class="round-block">ジャンル</p>
-                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">リリース</p>
-                                    <p class="round-content">2022年5月14日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">開発期間</p>
-                                    <p class="round-content">9日</p>
-                                </div>
-                                <div class="point">
-                                    <p class="round-block">イベント</p>
-                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-challenge">
-                                <p class="tab-message">チャレンジしたこと</p>
-                                <ul>
-                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
-                                    <li>UniRx / UniTaskの利活用</li>
-                                    <li>Affinity DesignerによるUI作成</li>
-                                </ul>
-                            </div>
-                            <div class="project-challenge">
-                                <p class="tab-message">苦労したこと</p>
-                                <ul>
-                                    <li>
-                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
-                                        実装時にデータの送受信関係で時間を要した。
-                                    </li>
-                                    <li>
-                                        オンラインゲームでは避けて通れない遅延問題の対策
-                                    </li>
-                                    <li>
-                                        双方のクライアントに乱数で生成した同じデータを共有すること
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
                         </div>
                     </div>
                     <div class="project-content">
@@ -619,6 +454,234 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-title">
+                                <h2>Blockete</h2>
+                            </div>
+                            <div class="rounded-tags">
+                                <ul>
+                                    <li class="black"># Unity</li>
+                                    <li class="magenta"># UI</li>
+                                    <li class="unity1week"># Unity1Week</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-main">
+                            <div class="project-videos">
+                                <div>
+                                    <iframe 
+                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
+                                        title="YouTube video player" frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="project-side-block">
+                                <div class="point">
+                                    <p class="round-block">ジャンル</p>
+                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">リリース</p>
+                                    <p class="round-content">2022年5月14日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">開発期間</p>
+                                    <p class="round-content">9日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">イベント</p>
+                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-challenge">
+                                <p class="tab-message">チャレンジしたこと</p>
+                                <ul>
+                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
+                                    <li>UniRx / UniTaskの利活用</li>
+                                    <li>Affinity DesignerによるUI作成</li>
+                                </ul>
+                            </div>
+                            <div class="project-challenge">
+                                <p class="tab-message">苦労したこと</p>
+                                <ul>
+                                    <li>
+                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
+                                        実装時にデータの送受信関係で時間を要した。
+                                    </li>
+                                    <li>
+                                        オンラインゲームでは避けて通れない遅延問題の対策
+                                    </li>
+                                    <li>
+                                        双方のクライアントに乱数で生成した同じデータを共有すること
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-title">
+                                <h2>Blockete</h2>
+                            </div>
+                            <div class="rounded-tags">
+                                <ul>
+                                    <li class="black"># Unity</li>
+                                    <li class="magenta"># UI</li>
+                                    <li class="unity1week"># Unity1Week</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-main">
+                            <div class="project-videos">
+                                <div>
+                                    <iframe 
+                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
+                                        title="YouTube video player" frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="project-side-block">
+                                <div class="point">
+                                    <p class="round-block">ジャンル</p>
+                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">リリース</p>
+                                    <p class="round-content">2022年5月14日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">開発期間</p>
+                                    <p class="round-content">9日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">イベント</p>
+                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-challenge">
+                                <p class="tab-message">チャレンジしたこと</p>
+                                <ul>
+                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
+                                    <li>UniRx / UniTaskの利活用</li>
+                                    <li>Affinity DesignerによるUI作成</li>
+                                </ul>
+                            </div>
+                            <div class="project-challenge">
+                                <p class="tab-message">苦労したこと</p>
+                                <ul>
+                                    <li>
+                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
+                                        実装時にデータの送受信関係で時間を要した。
+                                    </li>
+                                    <li>
+                                        オンラインゲームでは避けて通れない遅延問題の対策
+                                    </li>
+                                    <li>
+                                        双方のクライアントに乱数で生成した同じデータを共有すること
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-title">
+                                <h2>Blockete</h2>
+                            </div>
+                            <div class="rounded-tags">
+                                <ul>
+                                    <li class="black"># Unity</li>
+                                    <li class="magenta"># UI</li>
+                                    <li class="unity1week"># Unity1Week</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-main">
+                            <div class="project-videos">
+                                <div>
+                                    <iframe 
+                                        width="100%" height="100%" src="https://www.youtube.com/embed/Uu88iDv98dQ" 
+                                        title="YouTube video player" frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="project-side-block">
+                                <div class="point">
+                                    <p class="round-block">ジャンル</p>
+                                    <p class="round-content">２人オンライン対戦型パズルゲーム</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">リリース</p>
+                                    <p class="round-content">2022年5月14日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">開発期間</p>
+                                    <p class="round-content">9日</p>
+                                </div>
+                                <div class="point">
+                                    <p class="round-block">イベント</p>
+                                    <p class="round-content">Unity1Week 第22回「そろえる」</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-challenge">
+                                <p class="tab-message">チャレンジしたこと</p>
+                                <ul>
+                                    <li>PUN2を用いたリアルタイムオンライン対戦機能の実装</li>
+                                    <li>UniRx / UniTaskの利活用</li>
+                                    <li>Affinity DesignerによるUI作成</li>
+                                </ul>
+                            </div>
+                            <div class="project-challenge">
+                                <p class="tab-message">苦労したこと</p>
+                                <ul>
+                                    <li>
+                                        オンラインによる情報の受け渡しの仕組みを当時はあまり理解しておらず、
+                                        実装時にデータの送受信関係で時間を要した。
+                                    </li>
+                                    <li>
+                                        オンラインゲームでは避けて通れない遅延問題の対策
+                                    </li>
+                                    <li>
+                                        双方のクライアントに乱数で生成した同じデータを共有すること
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-comment">
+                            <p class="tab-message">コメントなど</p>
+                            <p class="comment">
+                                aaa
+                            </p>
                         </div>
                     </div>
                 </div>
