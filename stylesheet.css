@@ -4,14 +4,17 @@ body {
 }
 
 h1 {
+    font-size:40px;
     margin: 0;
 }
 
 h2 {
+    font-size: 32px;
     margin: 0;
 }
 
 h3 {
+    font-size: 24px;
     margin: 0;
 }
 
@@ -92,7 +95,7 @@ main {
 
 .account {
     display: flex;
-    vertical-align: middle;
+    align-items: center;
 }
 
 .account-name {
@@ -117,14 +120,15 @@ main {
     margin: 1em 0em;
 }
 
-.profile-tag ul{
+.rounded-tags ul{
     padding-left: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
-.profile-tag li {
+.rounded-tags li {
     padding: 0.5em 1em;
     margin: .5em;
     border-radius: .5em;
@@ -152,6 +156,10 @@ main {
     background-color: rgb(216, 57, 57);
 }
 
+.unity1week {
+    background-color: rgb(49, 172, 212);
+}
+
 .profile-link {
     margin: 1em 0em;
 }
@@ -162,4 +170,42 @@ main {
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
     margin: 2em;
+}
+
+.project-content {
+    margin: 2em;
+}
+
+.project-top {
+    display: flex;
+    align-items: center;
+}
+
+.project-title {
+    margin: 0.5em 2em 0.5em 0em;
+}
+
+.project-main {
+    display: flex;
+}
+
+.project-side-block {
+    margin: 0em 2em;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.round-block {
+    padding: 1em 2em;
+    margin: 1em 2em;
+    border-radius: .5em;
+    background-color: #313131;
+    color: white;
+    font-weight: bold;
+    display: flex;
 }
