@@ -277,7 +277,7 @@ main {
 
 .project-challenge {
     width: 50%;
-    margin: 1em 1em 3em 1em;
+    margin: 1em;
 }
 
 .project-challenge ul {
@@ -293,4 +293,20 @@ main {
     margin: 1em 2em;
     font-weight: bold;
     font-size: 18px;
+}
+
+.project-comment {
+    margin: 1em 1em 3em 1em;
+}
+
+.project-comment .tab-message  {
+    margin: 0em 75% 0em 0em;
+}
+
+.comment {
+    margin: 0;
+    padding: 1em 2em;
+    border: solid 2px #313131;
+    border-radius: 0 1em 1em 1em;
+    box-shadow: 4px 4px 0 0 #313131;
 }
