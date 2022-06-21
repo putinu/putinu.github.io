@@ -22,6 +22,16 @@ li {
     margin: 1em 0em;
 }
 
+a {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* ヘッダー */
 header {
     background-color: #313131;
@@ -48,6 +58,15 @@ nav {
     font-weight: bold;
 }
 
+header a{
+    color: white;
+    font-size: 16px;
+}
+
+header a:hover{
+    color:rgb(255, 115, 0);
+}
+
 header ul {
     margin: 0px;
     display: flex;
@@ -66,7 +85,7 @@ main {
     margin-right: 10%;
 }
 
-.titlebar {
+#titlebar {
     background-color: white;
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
@@ -74,7 +93,7 @@ main {
     margin-bottom: 6em;
 }
 
-.profile {
+#profile {
     background-color: white;
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
@@ -182,7 +201,7 @@ main {
 }
 
 /* プロジェクト */
-.project {
+#project {
     background-color: white;
     box-shadow: 12px 12px 0px 20px #313131;
     padding: 2em;
@@ -199,6 +218,15 @@ main {
     border-bottom: solid 2px #313131;
     margin-bottom: 1em;
     padding: .5em;
+}
+
+#project a {
+    color:#313131;
+    text-decoration: underline;
+}
+
+#project a:hover {
+    color:rgb(255, 115, 0);
 }
 
 .project-title {
