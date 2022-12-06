@@ -221,11 +221,13 @@ table {
 
 td {
     padding: .5% 1em .5% 1em;
+    border-bottom: 1px solid #dddddd;
 }
 
 th {
     background-color: #313131;
     color: white;
+    font-size: large;
 }
 
 th, .internship-date {
