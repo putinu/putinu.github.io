@@ -200,6 +200,59 @@ main {
     margin: 1em 0em;
 }
 
+/* インターン */
+#internship {
+    background-color: white;
+    box-shadow: 12px 12px 0px 20px #313131;
+    padding: 2em;
+    margin: 2em;
+    margin-bottom: 6em;
+}
+
+.internship-content {
+    margin: 1em 0em;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: .5em 1em;
+}
+
+td {
+    padding: .5% 1em .5% 1em;
+}
+
+th {
+    background-color: #313131;
+    color: white;
+}
+
+th, .internship-date {
+    width: 14%;
+    padding: 1% 0;
+}
+
+th, .internship-name {
+    width: 30%;
+    padding: 1% 0;
+}
+
+th, .internship-company {
+    width: 25%;
+    padding: 1% 0;
+}
+
+th, .internship-length {
+    width: 10%;
+    padding: 1% 0;
+}
+
+th, .internship-other {
+    width: 20%;
+    padding: 1% 0;
+}
+
 /* プロジェクト */
 #project {
     background-color: white;
